@@ -32,11 +32,18 @@ it is set to a maximum value. Here, we have used a binary
 thresholding which will convert the image into black and white.
 
 4. Canny Edge Detection: uses a multi-stage algorithm which includes
-1.Gaussian filtering 
-2.Finding the intensity gradient of the image
-3.Non-maximum suppression 
-4.Double thresholding 
-5.Edge tracking by hysteresis.
 
-Possible Improvement: Noise removal near edges could be
+a.Gaussian filtering 
+
+b.Finding the intensity gradient of the image
+
+c.Non-maximum suppression 
+
+d.Double thresholding 
+
+e.Edge tracking by hysteresis.
+
+Possible Improvement:
+
+Noise removal near edges could be
 improved by computing customized kernels as per requirement.
