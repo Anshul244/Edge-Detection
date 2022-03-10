@@ -15,11 +15,14 @@ for noise removal are following,
 
 ● Averaging Filter: Averages all the pixels under the kernel area
 and replaces the central element.
+
 ● Median Filter: Each pixel in an image gets multiplied by the
 Gaussian Kernel.
+
 ● Gaussian Filter: This is a non-linear filtering technique that
 takes a median of all the pixels under the kernel area and
 replaces the central component with this median value.
+
 ● Bilateral Filter (default): This function can be applied to reduce
 noise while keeping the edges sharp.
 
